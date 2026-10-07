@@ -1,6 +1,9 @@
-﻿@import "tailwindcss";
-@config "../tailwind.config.js";
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  @apply bg-slate-900 text-white font-sans antialiased;
+@layer base {
+  body {
+    @apply bg-slate-900 text-white font-sans antialiased;
+  }
 }
